@@ -1,0 +1,8 @@
+package com.taotao.rest.service;
+
+import com.taotao.rest.pojo.ItemCatResult;
+
+public interface IItemCatService {
+
+	ItemCatResult getItemCatList();
+}

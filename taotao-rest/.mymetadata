@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="taotao-rest"
+  id="myeclipse.1493643814246"
+  context-root="/taotao-rest"
+  j2ee-spec="6.0"
+  archive="taotao-rest.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
