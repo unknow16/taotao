@@ -1,4 +1,7 @@
 com\taotao\rest\service\impl\RedisServiceImpl.class
+com\taotao\rest\service\IItemService.class
+com\taotao\rest\service\impl\ItemServiceImpl.class
+com\taotao\rest\controller\ItemController.class
 com\taotao\rest\pojo\ItemCat.class
 com\taotao\rest\dao\impl\JedisClientSingleImpl.class
 com\taotao\rest\service\impl\ItemCatServiceImpl.class

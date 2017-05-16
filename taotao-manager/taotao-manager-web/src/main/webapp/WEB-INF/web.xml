@@ -47,7 +47,4 @@
 		<servlet-name>taotao-manager</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	<!-- 资源映射 -->
-	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
-	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
 </web-app>

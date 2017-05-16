@@ -5,10 +5,13 @@ D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\dao\impl\JedisClien
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\controller\ItemCatController.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\pojo\ItemCatResult.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\impl\RedisServiceImpl.java
-D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\dao\impl\JedisClientSingleImpl.java
+D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\IItemService.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\IContentService.java
+D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\dao\impl\JedisClientSingleImpl.java
+D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\impl\ItemServiceImpl.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\impl\ItemCatServiceImpl.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\controller\RedisController.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\controller\ContentController.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\pojo\ItemCat.java
+D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\controller\ItemController.java
 D:\workspaces\My10\taotao-rest\src\main\java\com\taotao\rest\service\impl\ContentServiceImpl.java
