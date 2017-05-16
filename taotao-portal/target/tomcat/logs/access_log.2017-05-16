@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:51:16 +0800] "GET /order/create.html HTTP/1.1" 405 1045 http-bio-8082-exec-1 73
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:51:25 +0800] "GET / HTTP/1.1" 200 110803 http-bio-8082-exec-7 1972
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:51:29 +0800] "GET /cart/success.html HTTP/1.1" 200 20315 http-bio-8082-exec-8 278
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:51:31 +0800] "GET /order/order-cart.html HTTP/1.1" 200 25883 http-bio-8082-exec-9 281
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:51:33 +0800] "POST /order/create.html HTTP/1.1" 200 7368 http-bio-8082-exec-10 280
+0:0:0:0:0:0:0:1 - - [16/May/2017:10:54:54 +0800] "GET / HTTP/1.1" 200 110803 http-bio-8082-exec-8 66
