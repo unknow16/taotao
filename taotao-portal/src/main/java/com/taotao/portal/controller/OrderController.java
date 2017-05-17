@@ -8,10 +8,10 @@ import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.taotao.pojo.TbUser;
 import com.taotao.portal.pojo.CartItem;
 import com.taotao.portal.pojo.Order;
 import com.taotao.portal.service.ICartService;
@@ -34,7 +34,10 @@ public class OrderController {
 	}
 	
 	@RequestMapping(value="/order/create", method=RequestMethod.POST)
-	public String createOrder(Order order, Model model) {
+	public String createOrder(Order order, Model model, HttpServletRequest request) {
+		TbUser user = (TbUser)request.getAttribute("user");
+		order.setBuyerNick(user.getUsername());
+		order.setUserId(user.getId());
 		String orderId = orderService.createOrder(order);
 		model.addAttribute("orderId", orderId);
 		model.addAttribute("payment", order.getPayment());

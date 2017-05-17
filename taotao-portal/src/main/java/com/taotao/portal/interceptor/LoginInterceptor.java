@@ -29,6 +29,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 			response.sendRedirect(userService.SSO_BASE_URL + userService.SSO_LOGIN_PATH + "?redirect=" + request.getRequestURL());
 			return false;
 		}
+		request.setAttribute("user", user);
 		return true;
 	}
 
